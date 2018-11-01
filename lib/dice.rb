@@ -1,11 +1,10 @@
 
 class Dice
 
-  def dice
-  end
-
-  def roll
-    rand(6)
+  def roll(number=1)
+    number.times do
+     p rand(1..6)
+    end
   end
 
 end
